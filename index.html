@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="Udacity Responsive Images course project">
+  <meta name="author" content="Priyanka Singh">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta charset="utf-8">
+  <meta name="mobile-web-app-capable" content="yes">
+  <base target="_blank">
+  <title>My Project</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+</head>
+
+<body>
+  <article>
+    <header>
+        <a href="//github.com/udacity/responsive-images/" title="Home page for course examples">
+          <img class="logo" src="images/logo.svg" alt= "logo">
+      </a>
+    <div class="author-info">
+      <h1>Priyanka Singh</h1>
+      <h4>Front-end Ninja</h4>
+    </div>
+  </header>
+    <picture id="banner">
+      <source media="(min-width: 750px)" srcset="images/yellowstone-1600_large_2x.jpg 2x"/>
+      <source media="(min-width: 500px)" srcset="images/yellowstone-1000medium.jpg" />
+      <img src="images/yellowstone-500small.jpg" alt="YellowStone">
+    </picture>
+
+    <footer>
+      <h2>Featured Work</h2>
+      <div class="projects">
+        <div class="project">
+          <figure>
+            <picture>
+              <img src="images/flowers-500small.jpg" alt="flowers">
+            </picture>
+            <figcaption>Project 1</figcaption>
+          </figure>
+          <p>
+            <a href="https://github.com/udacity/project1/" title="Project3">https://github.com/udacity/project1/</a>
+          </p>
+        </div>
+        <div class="project">
+          <figure>
+            <img src="images/taj-entrance-500small.jpg" alt="Entrance to TajMahal">
+            <figcaption>Project 2</figcaption>
+          </figure>
+          <p>
+            <a href="https://github.com/udacity/project2/" title="Project3">https://github.com/udacity/project2/</a>
+          </p>
+        </div>
+        <div class="project">
+          <figure>
+            <img src="images/tajmahal-500small.jpg" alt="Tajmahal">
+            <figcaption>Project 3</figcaption>
+          </figure>
+          <p>
+            <a href="https://github.com/udacity/project3/" title="Project3">https://github.com/udacity/project3/</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </article>
+</body>
+</html>
